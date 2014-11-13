@@ -60,9 +60,9 @@ WSGI_APPLICATION = 'bootcamp.wsgi.application'
 # Internationalization
 # https://docs.djangoproject.com/en/1.6/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'zh_CN'
 
-TIME_ZONE = 'America/Sao_Paulo'
+TIME_ZONE = 'Asia/Shanghai'
 
 USE_I18N = True
 
@@ -73,7 +73,8 @@ USE_TZ = True
 LANGUAGES = (
     ('en', 'English'),
     ('pt-br', 'Portuguese'),
-    ('es', 'Spanish')
+    ('es', 'Spanish'),
+    ('zh_CN','Simple Chinese')
 )
 
 LOCALE_PATHS = (PROJECT_DIR.child('locale'), )

@@ -1,0 +1,331 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-05 22:50-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: activities/templates/activities/last_notifications.html:12
+msgid "You have no unread notification"
+msgstr "你没有未读通知"
+
+#: activities/templates/activities/last_notifications.html:14
+msgid "See all"
+msgstr "查看所有"
+
+#: activities/templates/activities/notifications.html:26
+msgid "You have no notification"
+msgstr "你没有通知"
+
+#: articles/models.py:25 articles/templates/articles/article.html:13
+msgid "Article"
+msgstr "文章"
+
+#: articles/models.py:26 articles/templates/articles/article.html:12
+#: articles/templates/articles/articles.html:4
+#: articles/templates/articles/articles.html:16
+#: articles/templates/articles/drafts.html:10
+#: articles/templates/articles/edit.html:10
+#: articles/templates/articles/write.html:10 templates/base.html:39
+msgid "Articles"
+msgstr "文章"
+
+#: articles/models.py:68
+msgid "Tag"
+msgstr "标签"
+
+#: articles/models.py:69 articles/templates/articles/drafts.html:18
+msgid "Tags"
+msgstr "标签"
+
+#: articles/templates/articles/articles.html:13
+#: articles/templates/articles/write.html:11
+#, fuzzy
+msgid "Write Article"
+msgstr "书写文章"
+
+#: articles/templates/articles/articles.html:15
+#: articles/templates/articles/drafts.html:11
+#: articles/templates/articles/edit.html:11
+msgid "Drafts"
+msgstr "草稿"
+
+#: articles/templates/articles/articles.html:24
+msgid "There is no published article yet"
+msgstr "还没有发布的文章"
+
+#: articles/templates/articles/articles.html:24
+msgid "Be the first one to publish"
+msgstr "第一次发布"
+
+#: articles/templates/articles/articles.html:29
+msgid "Popular Tags"
+msgstr "流行的标签"
+
+#: articles/templates/articles/drafts.html:16
+msgid "Title"
+msgstr "标题"
+
+#: articles/templates/articles/drafts.html:17
+msgid "Content"
+msgstr "内容"
+
+#: articles/templates/articles/drafts.html:35
+msgid "No draft to display"
+msgstr "没有草稿"
+
+#: articles/templates/articles/edit.html:12
+msgid "Edit"
+msgstr "编辑"
+
+#: articles/templates/articles/edit.html:30
+#: articles/templates/articles/write.html:29
+msgid "Publish"
+msgstr "发布"
+
+#: articles/templates/articles/edit.html:31
+#: articles/templates/articles/write.html:30
+msgid "Save Draft"
+msgstr "保存草稿"
+
+#: articles/templates/articles/edit.html:32
+#: articles/templates/articles/write.html:31
+#: feeds/templates/feeds/feeds.html:29
+#: questions/templates/questions/ask.html:28
+msgid "Cancel"
+msgstr "取消"
+
+#: auth/templates/auth/signup.html:11 core/templates/core/cover.html:39
+msgid "Sign up for Bootcamp"
+msgstr "注册"
+
+#: auth/templates/auth/signup.html:26
+msgid "Create an account"
+msgstr "创建账户"
+
+#: core/templates/core/cover.html:20 core/templates/core/cover.html.py:38
+msgid "Log in"
+msgstr "登录"
+
+#: core/templates/core/cover.html:24 core/templates/core/network.html:27
+msgid "Username"
+msgstr "用户名"
+
+#: core/templates/core/cover.html:31
+#: core/templates/core/partial_settings_menu.html:5
+msgid "Password"
+msgstr "密码"
+
+#: core/templates/core/network.html:4 templates/base.html:41
+msgid "Network"
+msgstr "社区"
+
+#: core/templates/core/network.html:25
+msgid "Job Title"
+msgstr "职称"
+
+#: core/templates/core/network.html:28
+msgid "Email"
+msgstr "邮件"
+
+#: core/templates/core/network.html:30
+msgid "Location"
+msgstr "地址"
+
+#: core/templates/core/network.html:33
+msgid "Url"
+msgstr ""
+
+#: core/templates/core/partial_settings_menu.html:3
+msgid "Profile"
+msgstr "档案"
+
+#: core/templates/core/partial_settings_menu.html:4
+msgid "Picture"
+msgstr "照片"
+
+#: core/templates/core/password.html:4 core/templates/core/password.html:8
+#: core/templates/core/picture.html:4 core/templates/core/picture.html:14
+#: core/templates/core/settings.html:8 templates/base.html:50
+msgid "Account Settings"
+msgstr "账户设置"
+
+#: core/templates/core/password.html:23
+msgid "Change Password"
+msgstr "变更密码"
+
+#: core/templates/core/password.html:43 core/templates/core/settings.html:42
+msgid "Save"
+msgstr "保存"
+
+#: core/templates/core/picture.html:29
+msgid "Change Picture"
+msgstr "更改照片"
+
+#: core/templates/core/picture.html:34
+msgid "Upload new picture"
+msgstr "上传新照片"
+
+#: core/templates/core/picture.html:45
+msgid "Crop Picture"
+msgstr "裁剪照片"
+
+#: core/templates/core/picture.html:49
+msgid "Crop the profile picture and then click on the"
+msgstr "裁剪照片然后点击"
+
+#: core/templates/core/picture.html:49
+msgid "Save Picture"
+msgstr "保存照片"
+
+#: core/templates/core/picture.html:49
+msgid "button"
+msgstr "按钮"
+
+#: core/templates/core/picture.html:64
+msgid "Close"
+msgstr "关闭"
+
+#: core/templates/core/picture.html:65
+msgid "Save changes"
+msgstr "保存更改"
+
+#: core/templates/core/profile.html:37
+msgid "Last Feeds by"
+msgstr ""
+
+#: core/templates/core/settings.html:23
+msgid "Edit Profile"
+msgstr "Editar Perfil"
+
+#: feeds/models.py:16 feeds/templates/feeds/feed.html:6 templates/base.html:38
+msgid "Feed"
+msgstr "微博"
+
+#: feeds/models.py:17
+msgid "Feeds"
+msgstr "微博"
+
+#: feeds/templates/feeds/feeds.html:12
+msgid "Press Ctrl + P to compose"
+msgstr "写作的快捷键Ctrl+P"
+
+#: feeds/templates/feeds/feeds.html:13
+msgid "Compose"
+msgstr "写作"
+
+#: feeds/templates/feeds/feeds.html:18
+msgid "Compose a new post"
+msgstr "写布告"
+
+#: feeds/templates/feeds/feeds.html:27
+msgid "Post"
+msgstr "布告"
+
+#: feeds/templates/feeds/feeds.html:34
+msgid "new posts"
+msgstr "新布告"
+
+#: feeds/templates/feeds/partial_feed.html:8
+msgid "Click to remove this feed"
+msgstr "删除微博"
+
+#: feeds/templates/feeds/partial_feed.html:16
+msgid "Unlike"
+msgstr "取消点赞"
+
+#: feeds/templates/feeds/partial_feed.html:22
+msgid "Like"
+msgstr "点赞"
+
+#: feeds/templates/feeds/partial_feed.html:27
+msgid "Comment"
+msgstr "备注"
+
+#: feeds/templates/feeds/partial_feed.html:35
+msgid "Write a comment..."
+msgstr "写备注..."
+
+#: feeds/templates/feeds/partial_feed_comments.html:11
+msgid "Be the first one to comment"
+msgstr "新备注"
+
+#: questions/templates/questions/ask.html:6
+#: questions/templates/questions/question.html:13
+#: questions/templates/questions/questions.html:16
+msgid "Questions"
+msgstr "提问"
+
+#: questions/templates/questions/ask.html:7
+#: questions/templates/questions/questions.html:14
+msgid "Ask Question"
+msgstr "回答"
+
+#: questions/templates/questions/ask.html:27
+msgid "Post Your Question"
+msgstr "提交提问"
+
+#: questions/templates/questions/partial_answer.html:7
+msgid "Click to up vote; click again to toggle"
+msgstr "点击增加投票，再点击取消"
+
+#: questions/templates/questions/partial_answer.html:9
+msgid "Click to down vote; click again to toggle"
+msgstr "点击削减投票，再点击取消"
+
+#: questions/templates/questions/partial_answer.html:11
+msgid "Click to unaccept the answer"
+msgstr "点击拒绝接受该回答"
+
+#: questions/templates/questions/partial_answer.html:15
+msgid "Click to accept the answer"
+msgstr "点击接受该回答"
+
+#: questions/templates/questions/partial_answer.html:22
+msgid "answered"
+msgstr "回答"
+
+#: questions/templates/questions/question.html:14
+msgid "Question"
+msgstr "问题"
+
+#: questions/templates/questions/question.html:56
+msgid "Post Your Answer"
+msgstr "提交回答"
+
+#: questions/templates/questions/questions.html:20
+msgid "All Questions"
+msgstr "所有问题"
+
+#: questions/templates/questions/questions.html:21
+msgid "Unanswered"
+msgstr "取消回答"
+
+#: questions/templates/questions/questions.html:22
+msgid "Answered"
+msgstr "答案"
+
+#: questions/templates/questions/questions.html:27
+msgid "No question to display"
+msgstr "没有问题"
+
+#: templates/base.html:40
+msgid "Q&A"
+msgstr "提问&解答"
+
+#: templates/base.html:51
+msgid "Log out"
+msgstr "登出"
